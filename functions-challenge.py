@@ -12,7 +12,6 @@ def playerRank(wins, losses):
         if wins >= elo['Min Wins'] and wins <= elo['Max Wins']:
             return elo['Rank']
     return "Player sem rank."
-playerRank(71,41)
 
 def playerWL(wins, losses):
     rankedWL = wins - losses
